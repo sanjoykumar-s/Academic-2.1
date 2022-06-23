@@ -1,0 +1,63 @@
+# Load canceled
+# Load canceled
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v failed with 4 errors.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of FullAdder.v was successful.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of FullAdder.v was successful.
+# Compile of HalfAdder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FullAdder work.HalfAdder
+# vsim -gui work.FullAdder work.HalfAdder 
+# Start time: 11:27:03 on Jun 13,2022
+# Loading work.FullAdder
+# ** Error: (vsim-3033) Instantiation of 'HalfAddder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /FullAdder File: C:/Users/CSE/Desktop/Sanjoy/FullAdder.v Line: 5
+#         Searched libraries:
+#             C:/Users/CSE/Desktop/Sanjoy/work
+# ** Error: (vsim-3033) Instantiation of 'HalfAddder' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /FullAdder File: C:/Users/CSE/Desktop/Sanjoy/FullAdder.v Line: 6
+#         Searched libraries:
+#             C:/Users/CSE/Desktop/Sanjoy/work
+# Loading work.HalfAdder
+# Error loading design
+# End time: 11:27:04 on Jun 13,2022, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 16
+vsim -gui work.HalfAdder
+# vsim -gui work.HalfAdder 
+# Start time: 11:27:20 on Jun 13,2022
+# Loading work.HalfAdder
+vsim -gui work.HalfAdder
+# End time: 11:27:37 on Jun 13,2022, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1
+# vsim -gui work.HalfAdder 
+# Start time: 11:27:37 on Jun 13,2022
+# Loading work.HalfAdder
+add wave -position insertpoint  \
+sim:/HalfAdder/a
+add wave -position insertpoint  \
+sim:/HalfAdder/b
+add wave -position insertpoint  \
+sim:/HalfAdder/s
+add wave -position insertpoint  \
+sim:/HalfAdder/c

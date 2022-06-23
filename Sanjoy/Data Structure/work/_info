@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vFullAdder
+!s110 1655098008
+!i10b 1
+!s100 hGj5G;]=KH1S]dFzNlF[j0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IRo>6nCS_R`X^cToczc7`P2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/CSE/Desktop/Sanjoy
+w1655098002
+8C:/Users/CSE/Desktop/Sanjoy/FullAdder.v
+FC:/Users/CSE/Desktop/Sanjoy/FullAdder.v
+!i122 9
+L0 1 8
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1655098008.000000
+!s107 C:/Users/CSE/Desktop/Sanjoy/FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/CSE/Desktop/Sanjoy/FullAdder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@full@adder
+vHalfAdder
+!s110 1655098009
+!i10b 1
+!s100 @7jZA0VhH?1134<Wi1HNA0
+R0
+IT<Q46=V=Y8gFOlYoe0DY81
+R1
+R2
+w1655097348
+8C:/Users/CSE/Desktop/Sanjoy/HalfAdder.v
+FC:/Users/CSE/Desktop/Sanjoy/HalfAdder.v
+!i122 10
+L0 1 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/CSE/Desktop/Sanjoy/HalfAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/CSE/Desktop/Sanjoy/HalfAdder.v|
+!i113 1
+R5
+R6
+n@half@adder
