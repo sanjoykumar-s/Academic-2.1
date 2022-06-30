@@ -41,8 +41,8 @@ struct BST
             return;
         }
         if(arr[rt]==-1)return;
-        cout << arr[rt] << " ";
         display(rt*2);
+        cout << arr[rt] << " ";
         display((rt*2)+1);
     }
     void insert(int item)
