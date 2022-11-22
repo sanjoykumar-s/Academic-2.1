@@ -1,0 +1,10 @@
+module JK_FF(q,qbar,J,K,clr,clk);
+
+input J,K,clr,clk;
+output q,qbar;
+wire a,b,c,d,y,ybar,clkbar;
+
+not (clkbar,clk);
+and (a,J,clk,clr,qbar);
+
+endmodule

@@ -1,0 +1,8 @@
+{D:/Academic/2.1/DSD Lab/VHDL/JK_FF.v} {1 {vlog -work work -stats=none {D:/Academic/2.1/DSD Lab/VHDL/JK_FF.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module JK_FF
+
+Top level modules:
+	JK_FF
+
+} {} {}}
